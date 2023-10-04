@@ -1,5 +1,5 @@
 apiVersion: v2
 name: ingressroute
 description: A Helm chart to create a Traefik Ingress Route
-version: 0.1.0
+version: 0.1.1
 appVersion: "traefik.containo.us/v1alpha1"
