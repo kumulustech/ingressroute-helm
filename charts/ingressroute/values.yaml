@@ -1,0 +1,9 @@
+# Default values for ingressroute.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+host: test.example.com
+path: /
+service:
+  name: test
+  port: 80
