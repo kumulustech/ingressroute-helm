@@ -1,5 +1,7 @@
 # A Kubernetes HELM Chart to add a Traefik IngressRoute for your application
 
+This Helm Chart supports adding a Traefik v2 IngressRoute to your application either as a dependent Helm chart, or as a standalone resource.
+
 Traefik 2 adds an IngressRoute resource to support defining forwarding for your application. This is not directly equivalent to the Ingress of the past, and therefore doesn't easily insert itself in most helm charts that have an Ingress definition included.  The simple solution however, is to add this either as a standalone chart (it's connecting the dots as most Kubernetes resources do), and as most Traefik systems are setup to support multiple services (simplifying much of the other forwarding decisions), it's easy to just add your route as a part of that service.
 
 ## Install this chart
