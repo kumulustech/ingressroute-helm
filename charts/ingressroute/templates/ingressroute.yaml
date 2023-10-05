@@ -2,7 +2,7 @@ apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
   generation: 1
-  name: {{ include "ingressroute.fullname" . }}
+  name: {{ .Values.service.name }}
 spec:
   entryPoints:
   - websecure
