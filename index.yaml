@@ -3,6 +3,15 @@ entries:
   ingressroute:
   - apiVersion: v2
     appVersion: traefik.containo.us/v1alpha1
+    created: "2023-10-05T17:10:23.526363392Z"
+    description: A Helm chart to create a Traefik Ingress Route
+    digest: 09dde074eafc1920de54fb5fcebdabf8dd3a520cc70a4246769ca002d84ba9d8
+    name: ingressroute
+    urls:
+    - https://github.com/kumulustech/ingressroute-helm/releases/download/ingressroute-0.1.4/ingressroute-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: traefik.containo.us/v1alpha1
     created: "2023-10-05T00:23:38.393889922Z"
     description: A Helm chart to create a Traefik Ingress Route
     digest: efedd8014bff62692bbca5d86d7a1d577c300319ce3a0810ab41f593e74f4e62
@@ -19,4 +28,4 @@ entries:
     urls:
     - https://github.com/kumulustech/ingressroute-helm/releases/download/ingressroute-0.1.2/ingressroute-0.1.2.tgz
     version: 0.1.2
-generated: "2023-10-05T00:23:38.393908622Z"
+generated: "2023-10-05T17:10:23.526379092Z"
