@@ -23,7 +23,7 @@ service:
 And then install from the repository.  *NOTE*: the chart name needs to be different than your app, but the only critical information for forwarding is already included in the values.yaml:
 
 ```
-helm install ingressroute app-ir --repo https://kumulustech.github.io/ingressroute --values values.yaml
+helm install app-ir ingressroute --repo https://kumulustech.github.io/ingressroute-helm --values values.yaml
 ```
 
 ## Contributing
