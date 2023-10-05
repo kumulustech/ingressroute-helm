@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  ingressroute:
+  - apiVersion: v2
+    appVersion: traefik.containo.us/v1alpha1
+    created: "2023-10-05T00:14:59.506133116Z"
+    description: A Helm chart to create a Traefik Ingress Route
+    digest: 66e604b8623e725dfd1270cfc2f3801f39bd00c6e02e3951bea5410639dab75a
+    name: ingressroute
+    urls:
+    - https://github.com/kumulustech/ingressroute-helm/releases/download/ingressroute-0.1.2/ingressroute-0.1.2.tgz
+    version: 0.1.2
+generated: "2023-10-05T00:14:59.506138916Z"
